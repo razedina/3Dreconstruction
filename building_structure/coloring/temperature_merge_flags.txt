@@ -1,0 +1,13 @@
+
+# Full path to the directory containing the images used to create
+# the reconstructions. Must contain a trailing slash
+--image_directory="/TheiaSfM/iron/iron/rgb/"
+
+
+#Input/output reconstruction file
+--input_reconstruction_file="/TheiaSfM/iron/reconstruction-0" 
+--output_reconstruction_file="/TheiaSfM/iron/iron_mapping_hsl"
+# Number of threads to use for multithreading
+--num_threads=1
+# 1-thermal, 2-combined
+--recontruction_type=1 
